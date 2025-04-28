@@ -3,7 +3,13 @@
 ## Project Overview
 This project implements an automated ETL (Extract, Transform, Load) pipeline for analyzing earnings call transcripts using Azure Cloud Services. The system uses Azure Functions with Blob trigger to automatically process earnings call transcripts when they are uploaded to Azure Blob Storage, extracting sentiment analysis and key insights using natural language processing.
 
+## Architecture Diagram
+[Architecture Diagram](https://github.com/mrunalmanoharpatil/Earnings-Call-Analysis/blob/main/architecture%20diagram.png)
 
+## Demo Video
+Check out our demo video to see the Earnings Call Analysis system in action:
+
+[Demo Video](https://github.com/mrunalmanoharpatil/Earnings-Call-Analysis/blob/main/Azure%20Earnings%20Call%20Demo.mp4)
 
 The solution leverages several Azure services:
 - **Azure Blob Storage**: Stores raw transcripts and processed analysis results
